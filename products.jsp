@@ -1,14 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" import="web.Products"
 %>
-
 <!DOCTYPE html>
 <html>
 <head>
 <%
 	Products p = new Products("Programmer's Dozen", 3.25,
 			"https://s3-eu-west-1.amazonaws.com/froala-eu/temp_files%2F1560635572238-1560635572238.png", 4);
-
 	Products[] productArray = new Products[]{new Products("Programmer's Dozen", 2.99,
 			"https://s3-eu-west-1.amazonaws.com/froala-eu/temp_files%2F1560635572238-1560635572238.png", 4),
 			new Products("Spaghetti Code", 4.99, "https://sourcemaking.com/files/sm/images/spagett.jpg", 13),
@@ -70,60 +68,80 @@
 			<td align = "center">${pArray[0].getPrice()}</td>
 			<td align = "center"><img src=${pArray[0].getPicture() } width="120"></td>
 			<td align = "center">${pArray[0].getQuantity()}</td>
+			<td align="center"><a href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }">Buy</a>
+				</td>
 		</tr>
 		<tr>
 			<td align = "center">${pArray[1].getProduceName()}</td>
 			<td align = "center">${pArray[1].getPrice()}</td>
 			<td align = "center"><img src=${pArray[1].getPicture() } width="120"></td>
 			<td align = "center">${pArray[1].getQuantity()}</td>
+			<td align="center"><a href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }">Buy</a>
+				</td>
 		</tr>
 		<tr>
 			<td align = "center">${pArray[2].getProduceName()}</td>
 			<td align = "center">${pArray[2].getPrice()}</td>
 			<td align = "center"><img src=${pArray[2].getPicture() } width="120"></td>
 			<td align = "center">${pArray[2].getQuantity()}</td>
+			<td align="center"><a href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }">Buy</a>
+				</td>
 		</tr>
 		<tr>
 			<td align = "center">${pArray[3].getProduceName()}</td>
 			<td align = "center">${pArray[3].getPrice()}</td>
 			<td align = "center"><img src=${pArray[3].getPicture() } width="120"></td>
 			<td align = "center">${pArray[3].getQuantity()}</td>
+			<td align="center"><a href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }">Buy</a>
+				</td>
 		</tr>
 		<tr>
 			<td align = "center">${pArray[4].getProduceName()}</td>
 			<td align = "center">${pArray[4].getPrice()}</td>
 			<td align = "center"><img src=${pArray[4].getPicture() } width="120"></td>
 			<td align = "center">${pArray[4].getQuantity()}</td>
+			<td align="center"><a href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }">Buy</a>
+				</td>
 		</tr>
 		<tr>
 			<td align = "center">${pArray[5].getProduceName()}</td>
 			<td align = "center">${pArray[5].getPrice()}</td>
 			<td align = "center"><img src=${pArray[5].getPicture() } width="120"></td>
 			<td align = "center">${pArray[5].getQuantity()}</td>
+			<td align="center"><a href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }">Buy</a>
+				</td>
 		</tr>
 		<tr>
 			<td align = "center">${pArray[6].getProduceName()}</td>
 			<td align = "center">${pArray[6].getPrice()}</td>
 			<td align = "center"><img src=${pArray[6].getPicture() } width="120"></td>
 			<td align = "center">${pArray[6].getQuantity()}</td>
+			<td align="center"><a href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }">Buy</a>
+				</td>
 		</tr>
 		<tr>
 			<td align = "center">${pArray[7].getProduceName()}</td>
 			<td align = "center">${pArray[7].getPrice()}</td>
 			<td align = "center"><img src=${pArray[7].getPicture() } width="120"></td>
 			<td align = "center">${pArray[7].getQuantity()}</td>
+			<td align="center"><a href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }">Buy</a>
+				</td>
 		</tr>
 		<tr>
 			<td align = "center">${pArray[8].getProduceName()}</td>
 			<td align = "center">${pArray[8].getPrice()}</td>
 			<td align = "center"><img src=${pArray[8].getPicture() } width="120"></td>
 			<td align = "center">${pArray[8].getQuantity()}</td>
+			<td align="center"><a href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }">Buy</a>
+				</td>
 		</tr>
 		<tr>
 			<td align = "center">${pArray[9].getProduceName()}</td>
 			<td align = "center">${pArray[9].getPrice()}</td>
 			<td align = "center"><img src=${pArray[9].getPicture() } width="120"></td>
 			<td align = "center">${pArray[9].getQuantity()}</td>
+			<td align="center"><a href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }">Buy</a>
+				</td>
 		</tr>
 		
 	</table>
