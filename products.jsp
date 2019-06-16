@@ -1,3 +1,7 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1" import="web.Products"
+%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,7 +56,8 @@
 	<hr />
 	<p>&nbsp;</p>
 
-	<table border="1">
+
+	<table align = "center" border="1">
 		<tr>
 			<th>Name</th>
 			<th>Price</th>
@@ -60,23 +65,67 @@
 			<th>Quantity</th>
 			<th>Buy</th>
 		</tr>
-		
-		<script>
-			for (i = 0; i < 3; i++) {
-				
-		
-			document.write("<tr><td>" + i + "</td></tr>");
-			
-		
-			}
-		</script>
-		
 		<tr>
-			<td>${pArray[0].getProduceName()}</td>
-			<td>${pArray[0].getPrice()}</td>
-			<td><img src=${pArray[0].getPicture() } width="120"></td>
-			<td>${pArray[0].getQuantity()}</td>
+			<td align = "center">${pArray[0].getProduceName()}</td>
+			<td align = "center">${pArray[0].getPrice()}</td>
+			<td align = "center"><img src=${pArray[0].getPicture() } width="120"></td>
+			<td align = "center">${pArray[0].getQuantity()}</td>
 		</tr>
+		<tr>
+			<td align = "center">${pArray[1].getProduceName()}</td>
+			<td align = "center">${pArray[1].getPrice()}</td>
+			<td align = "center"><img src=${pArray[1].getPicture() } width="120"></td>
+			<td align = "center">${pArray[1].getQuantity()}</td>
+		</tr>
+		<tr>
+			<td align = "center">${pArray[2].getProduceName()}</td>
+			<td align = "center">${pArray[2].getPrice()}</td>
+			<td align = "center"><img src=${pArray[2].getPicture() } width="120"></td>
+			<td align = "center">${pArray[2].getQuantity()}</td>
+		</tr>
+		<tr>
+			<td align = "center">${pArray[3].getProduceName()}</td>
+			<td align = "center">${pArray[3].getPrice()}</td>
+			<td align = "center"><img src=${pArray[3].getPicture() } width="120"></td>
+			<td align = "center">${pArray[3].getQuantity()}</td>
+		</tr>
+		<tr>
+			<td align = "center">${pArray[4].getProduceName()}</td>
+			<td align = "center">${pArray[4].getPrice()}</td>
+			<td align = "center"><img src=${pArray[4].getPicture() } width="120"></td>
+			<td align = "center">${pArray[4].getQuantity()}</td>
+		</tr>
+		<tr>
+			<td align = "center">${pArray[5].getProduceName()}</td>
+			<td align = "center">${pArray[5].getPrice()}</td>
+			<td align = "center"><img src=${pArray[5].getPicture() } width="120"></td>
+			<td align = "center">${pArray[5].getQuantity()}</td>
+		</tr>
+		<tr>
+			<td align = "center">${pArray[6].getProduceName()}</td>
+			<td align = "center">${pArray[6].getPrice()}</td>
+			<td align = "center"><img src=${pArray[6].getPicture() } width="120"></td>
+			<td align = "center">${pArray[6].getQuantity()}</td>
+		</tr>
+		<tr>
+			<td align = "center">${pArray[7].getProduceName()}</td>
+			<td align = "center">${pArray[7].getPrice()}</td>
+			<td align = "center"><img src=${pArray[7].getPicture() } width="120"></td>
+			<td align = "center">${pArray[7].getQuantity()}</td>
+		</tr>
+		<tr>
+			<td align = "center">${pArray[8].getProduceName()}</td>
+			<td align = "center">${pArray[8].getPrice()}</td>
+			<td align = "center"><img src=${pArray[8].getPicture() } width="120"></td>
+			<td align = "center">${pArray[8].getQuantity()}</td>
+		</tr>
+		<tr>
+			<td align = "center">${pArray[9].getProduceName()}</td>
+			<td align = "center">${pArray[9].getPrice()}</td>
+			<td align = "center"><img src=${pArray[9].getPicture() } width="120"></td>
+			<td align = "center">${pArray[9].getQuantity()}</td>
+		</tr>
+		
 	</table>
 </body>
 </html>
