@@ -14,7 +14,7 @@
 <meta charset="ISO-8859-1">
 <title>Bits and Bytes</title>
 </head>
-<body>
+<body bgcolor="#EEDCC2">
 	<h1 style="text-align: center;">
 		<strong style="font-size: 60px;"><span
 			style="font-family: Verdana, Geneva, sans-serif;"
