@@ -49,7 +49,6 @@
 				filter = input.value.toUpperCase();
 				table = document.getElementById("productTable");
 				tr = table.getElementsByTagName("tr");
-
 				// Loop through all table rows, and hide those who don't match the search query
 				for (i = 0; i < tr.length; i++) {
 					td = tr[i].getElementsByTagName("td")[0];
@@ -97,7 +96,7 @@
 			></td>
 			<td align="center">${pArray[0].getQuantity()}</td>
 			<td align="center"><a
-				href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }"
+				href="${pageContext.request.contextPath }${product.id }"
 			>Buy</a></td>
 		</tr>
 		<tr>
@@ -108,7 +107,7 @@
 			></td>
 			<td align="center">${pArray[1].getQuantity()}</td>
 			<td align="center"><a
-				href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }"
+				href="${pageContext.request.contextPath }${product.id }"
 			>Buy</a></td>
 		</tr>
 		<tr>
@@ -119,7 +118,7 @@
 			></td>
 			<td align="center">${pArray[2].getQuantity()}</td>
 			<td align="center"><a
-				href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }"
+				href="${pageContext.request.contextPath }${product.id }"
 			>Buy</a></td>
 		</tr>
 		<tr>
@@ -130,7 +129,7 @@
 			></td>
 			<td align="center">${pArray[3].getQuantity()}</td>
 			<td align="center"><a
-				href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }"
+				href="${pageContext.request.contextPath }${product.id }"
 			>Buy</a></td>
 		</tr>
 		<tr>
@@ -141,7 +140,7 @@
 			></td>
 			<td align="center">${pArray[4].getQuantity()}</td>
 			<td align="center"><a
-				href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }"
+				href="${pageContext.request.contextPath }${product.id }"
 			>Buy</a></td>
 		</tr>
 		<tr>
@@ -152,7 +151,7 @@
 			></td>
 			<td align="center">${pArray[5].getQuantity()}</td>
 			<td align="center"><a
-				href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }"
+				href="${pageContext.request.contextPath }${product.id }"
 			>Buy</a></td>
 		</tr>
 		<tr>
@@ -163,7 +162,7 @@
 			></td>
 			<td align="center">${pArray[6].getQuantity()}</td>
 			<td align="center"><a
-				href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }"
+				href="${pageContext.request.contextPath }${product.id }"
 			>Buy</a></td>
 		</tr>
 		<tr>
@@ -174,7 +173,7 @@
 			></td>
 			<td align="center">${pArray[7].getQuantity()}</td>
 			<td align="center"><a
-				href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }"
+				href="${pageContext.request.contextPath }${product.id }"
 			>Buy</a></td>
 		</tr>
 		<tr>
@@ -185,7 +184,7 @@
 			></td>
 			<td align="center">${pArray[8].getQuantity()}</td>
 			<td align="center"><a
-				href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }"
+				href="${pageContext.request.contextPath }${product.id }"
 			>Buy</a></td>
 		</tr>
 		<tr>
@@ -196,7 +195,7 @@
 			></td>
 			<td align="center">${pArray[9].getQuantity()}</td>
 			<td align="center"><a
-				href="${pageContext.request.contextPath }/cart?&action=buy&id=${product.id }"
+				href="${pageContext.request.contextPath }${product.id }"
 			>Buy</a></td>
 		</tr>
 	</table>
